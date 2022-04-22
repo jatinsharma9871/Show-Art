@@ -1,0 +1,60 @@
+.sign{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.signpage{
+  margin-top: 20px;
+}
+.signpage button{
+   width: 100%;
+   height: 56px;
+   background-color: black;
+   border: transparent;
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+   cursor: pointer;
+}
+.signpage div{
+    margin:20px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.signpage2{
+    margin-bottom: 30px;
+}
+.signpage2>div{
+    display: flex;
+    gap: 15px;
+}
+.signpage2 img{
+    width: 56px;
+}
+.signpage2 p{
+   font-size: 16px;
+   font-weight: 500;
+}
+.ibtn{
+    margin-top: 10px;
+    background-color: #E2E2E2;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.ibtn:active{
+    background-color: rgb(240, 227, 227);
+}
+.loginIcons>div{
+   display: flex;
+   margin-top: -40px;
+   gap:20px
+}
