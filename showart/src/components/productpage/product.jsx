@@ -79,7 +79,7 @@ const ProductDetails = () => {
               <br/> <br/>
           <div className="jatinbhai">
                <div id="user-gender-btn">
-                <div id="mens-btn">Seller's Name</div>
+                <div id="mens-btn">Artist Name</div>
                 <div id="womens-btn">{product.artist_name}</div>
               </div>
               <br/>
