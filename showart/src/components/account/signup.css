@@ -1,0 +1,50 @@
+.register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.regNav>div{
+   margin: 10px 20px;
+   border-bottom: 2px solid black;
+
+}
+.regNav{
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.inputdiv{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.inputbox{
+    border: 2px solid #1b94f7;
+    padding:0px 20px 20px 20px;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.141)
+}
+.filediv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:500px) {
+    .inputdiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .inputbox{
+        padding: 0px;
+        border: transparent;
+        background-color: transparent;
+        width: 90%;
+    }
+}
