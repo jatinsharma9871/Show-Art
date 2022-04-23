@@ -71,19 +71,39 @@ const ProductDetails = () => {
               <div id="prod-price">
                 <p>₹{product.price}</p>
               </div>
+              <br/>  <hr></hr>  <br/><br/>
               <div id="user-gender">
-                <p>{product.artist_name}</p>
+                <h2 className="fkyou">Seller's Details :-</h2>
               </div>
+              <br/> <br/>
+          <div className="jatinbhai">
+               <div id="user-gender-btn">
+                <div id="mens-btn">Seller's Name</div>
+                <div id="womens-btn">{product.artist_name}</div>
+              </div>
+              <br/>
               <div id="user-gender-btn">
-                <div id="mens-btn">{product.city}</div>
-                <div id="womens-btn">{product.phone}</div>
+                <div id="mens-btn">City:</div>
+                <div id="womens-btn">{product.city}</div>
               </div>
-              <div id="user-size">
-                <p>{product.email}</p>
               </div>
-              <div id="user-size-btn">
-              <p>{product.category}</p>
+              <br/>
+              <div id="user-gender-btn">
+              <div id="mens-btn">Contacts:</div>
+                <div id="womens-btn">{`${product.phone}`}</div>
               </div>
+              <br/>
+              <div id="user-gender-btn">
+                <div id="mens-btn">Email:</div>
+                <div id="womens-btn">{product.email}</div>
+              </div>
+              <br/>
+              <div id="user-gender-btn">
+                <div id="mens-btn">Category:</div>
+                <div id="womens-btn">{`Indo ${product.category}`}</div>
+              </div>
+            
+            
               {/* <div id="buy-add-btn">
                 <div id="buy-btn" onClick={()=>{buyNow()}}>Buy Now</div>
                 <div id="add-btn"><button onClick={() => {
