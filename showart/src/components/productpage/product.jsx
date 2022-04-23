@@ -34,6 +34,7 @@ const ProductDetails = () => {
 //         JSON.stringify({
 //           profileImage: "https://a.rsg.sc/n/shreyas1000",
 //           nickName: "none",
+// console.log()
 //         })
 //       );
 

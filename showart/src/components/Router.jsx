@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import ProductDetails from "./productpage/product"
 import { Signup } from "./auth/Signup"
 import { Home } from "./Home/Home"
-
+// import {  } from "./Component/"
 
 export const Router =()=>{
 
