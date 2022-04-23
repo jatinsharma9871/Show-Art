@@ -87,6 +87,7 @@ const ProductDetails = () => {
                 <div id="womens-btn">{product.city}</div>
               </div>
               </div>
+              
               <br/>
               <div id="user-gender-btn">
               <div id="mens-btn">Contacts:</div>
