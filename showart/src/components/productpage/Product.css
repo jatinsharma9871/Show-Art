@@ -143,6 +143,9 @@ body {
   display:flex;
   justify-content: space-between;
 }
+.city-upper-name::first-letter{
+text-transform: uppercase;
+}
 
 @media only screen and (min-width: 500px) and (max-width: 1300px) {
 

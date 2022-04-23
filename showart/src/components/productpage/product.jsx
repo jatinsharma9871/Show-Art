@@ -84,10 +84,10 @@ const ProductDetails = () => {
               <br/>
               <div id="user-gender-btn">
                 <div id="mens-btn">City:</div>
-                <div id="womens-btn">{product.city}</div>
+                <div id="womens-btn" className="city-upper-name">{product.city}</div>
               </div>
               </div>
-              
+
               <br/>
               <div id="user-gender-btn">
               <div id="mens-btn">Contacts:</div>
@@ -96,7 +96,8 @@ const ProductDetails = () => {
               <br/>
               <div id="user-gender-btn">
                 <div id="mens-btn">Email:</div>
-                <div id="womens-btn">{product.email}</div>
+                <div id="womens-btn">
+                  {product.email}</div>
               </div>
               <br/>
               <div id="user-gender-btn">
