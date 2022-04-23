@@ -1,4 +1,4 @@
-import { Navbar } from "react-bootstrap"
+import { Navbar } from "./Navbar"
 import { Base } from "./Base"
 
 

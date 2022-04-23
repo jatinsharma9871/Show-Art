@@ -10,7 +10,7 @@ export const Login = () =>{
         <div className="sign">
             <div className='signpage'>
             {/* <Link to={'/email'}><button>Sign in</button></Link> */}
-               {user==='lock'?<Link to={'/register'}><button>Sign in</button></Link>:<>
+               {user==='lock'?<Link to={'/login'}><button>Sign in</button></Link>:<>
                   <div className='loginIcons'>
                     <div>
                         <img width={'45px'} height={'45px'} style={{borderRadius:'50%', margin:'20px 0px'}} src="https://d1w2poirtb3as9.cloudfront.net/default.jpeg?Expires=1649026627&Signature=B-rHzht352brIZyVMi4TPGncvtFkDLSz~oJj7I-f96Guqzmj-HPZZmj8jOqzCxDL~Ya59hpr8Q7EsLfJVGAHknQ2DSVRDaC4HY0g3wuiysJo7YKlR98FbdxvvucjvjHxtZNi7OthUn3TPhqNkRtt6RzDdklIe62-yksA0mX9h4Y9XMn2wZ~ED~~-hwdBveOxktY7nyrfyeAEUrdqfW~29nyyMjqszZz0rIu6nCS4YIGj8tzeYnetqu3vUMeykIcic3xS4PiCsTfIIsQCQjK0BR67VMWokdIyZ0R2kSEffGJuFXv0hKYsET~p~TVtLWE6aKlCbNkeOGu1zR4tCuMAKA__&Key-Pair-Id=APKAJSDH2OZQQSA64LQQ" alt="" />
