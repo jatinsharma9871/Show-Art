@@ -1,8 +1,7 @@
-import Button from '@mui/material/Button';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom';
-import { pageStatus } from '../redux/action';
+import { pageStatus } from '../../redux/action';
 import './navbaar.css'
 
 export const Navbar = ()=>{
@@ -37,8 +36,7 @@ export const Navbar = ()=>{
         <input type="text" placeholder='Enter delivery address' onFocus={onFocus} onBlur={onBlur} />
     </div>:""}
            {user==='lock'?<div >
-                <Link to={'/email'}>
-                    {/* <Button variant="contained" className='signbtn'>Sign in</Button> */}
+                <Link to={'/register'}>
                     <button className={'signbtn'}>Sign in</button>
                 </Link>
             </div>:<div></div>}
